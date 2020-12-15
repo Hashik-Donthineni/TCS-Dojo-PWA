@@ -1,14 +1,18 @@
 {
-  "short_name": "TCS-DOJO App",
-  "name": "TCS-DOJO PWA",
+  "name": "TCS-DOJO App",
+  "short_name": "TCS-DOJO",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "/images/logo.svg",
-      "sizes": "any"
+      "sizes": "48x48 72x72 96x96 128x128 256x256",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
